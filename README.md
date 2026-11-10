@@ -1,11 +1,14 @@
-# Five Years of Us — setup guide
+# Five Years of Us — GitHub Pages website
 
 ## Folder layout
 
 ```text
 anniversary-website/
 ├── index.html
+├── .gitattributes
+├── README.md
 ├── videos/
+│   ├── summary.mp4
 │   ├── 2021-2022.mp4
 │   ├── 2023.mp4
 │   ├── 2024.mp4
@@ -20,28 +23,12 @@ anniversary-website/
 └── music/
 ```
 
-## Add your videos
+## Add your media
 
-1. Open the `videos` folder.
-2. Copy each video into it.
-3. Rename the files exactly as shown above. For example, your 2023 video must be named `2023.mp4`.
-4. If you only have four videos, simply leave the year without a video out. The site will still work.
+Put the main five-year highlight video at `videos/summary.mp4`. Put each yearly video in `videos/` using the exact filenames above. Put the matching yearly photos in `photos/`.
 
-MP4 is recommended because it works in almost all browsers. If one is `.mov`, convert it to MP4 or tell us and the source can be adjusted.
+The website shows the summary video near the top, followed by the year-by-year timeline with a separate video and photo for each year.
 
-## Add optional photos
+## GitHub Pages
 
-Put one favourite image for each chapter in `photos`, using the matching filename. A `.jpg` image is expected. You can skip photos entirely.
-
-## View the website
-
-Double-click `index.html` to open it in Chrome, Edge or Safari. Your videos and photos should appear automatically.
-
-## Personalise it
-
-Open `index.html` in a text editor and change:
-
-- `2021-11-05` near the bottom to your actual anniversary date.
-- Any of the written messages, including the letter for Piggy.
-
-Keep the folder structure together if you upload it to a web host later.
+Upload the contents of this folder to the root of your GitHub repository, then enable GitHub Pages for the repository. Keep all folder and file names exactly as shown.
